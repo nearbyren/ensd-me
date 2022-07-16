@@ -23,8 +23,8 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
             from components.release
-            groupId = 'ejiayou.com.ren.lib.http'
-            artifactId = 'http'
+            groupId = 'ejiayou.me.module'
+            artifactId = 'me'
             version = '1.0.0'
             }
         }
