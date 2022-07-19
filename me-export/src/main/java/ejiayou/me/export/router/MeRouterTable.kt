@@ -7,6 +7,12 @@ package ejiayou.me.export.router
  */
 object MeRouterTable {
 
-    const val PATH_me_UI_INDEX = "/me/ui/detail"
+    const val PATH_ME_UI_DETAIL = "/me/ui/detail"
+
+    const val PATH_SERVICE_ME = "/me/service"
+
+
+    const val PATH_ME_UI_TEST = "/me/ui/test"
+
 
 }
