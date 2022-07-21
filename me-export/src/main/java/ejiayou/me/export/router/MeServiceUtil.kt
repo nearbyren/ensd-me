@@ -1,5 +1,6 @@
 package ejiayou.me.export.router
 
+import androidx.fragment.app.Fragment
 import com.alibaba.android.arouter.launcher.ARouter
 import ejiayou.me.export.router.service.IPayService
 
@@ -21,9 +22,9 @@ open class MeServiceUtil {
         }
 
 
-        fun navigateMeDetailPage() {
-            ARouter.getInstance().build(MeRouterTable.PATH_ME_UI_DETAIL)
-                .navigation()
+        fun navigateMePage(): Fragment {
+            return ARouter.getInstance().build(MeRouterTable.PATH_ME_UI_DETAIL)
+                    .navigation() as Fragment
 
         }
         fun navigateMeTestPage() {
