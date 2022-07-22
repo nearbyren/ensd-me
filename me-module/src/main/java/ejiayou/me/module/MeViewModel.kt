@@ -1,8 +1,6 @@
 package ejiayou.order.module
 
-import androidx.lifecycle.MutableLiveData
 import ejiayou.common.module.base.BaseAppViewModel
-import ejiayou.common.module.dto.BannerBean
 
 /**
  * @author: lr

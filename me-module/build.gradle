@@ -53,12 +53,12 @@ android {
     resourcePrefix "me_"
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_11.toString()
+        jvmTarget = '1.8'
     }
 
     buildFeatures {
@@ -77,7 +77,7 @@ dependencies {
 //    implementation project(path: ':home-aars')
 //    api 'com.github.nearbyren.ensd-station:export:v1.1.7'
 //    api 'com.github.nearbyren.ensd-station:module:v1.1.7'
-    api 'com.github.nearbyren:ensd-common:1.2.4'
+    api 'com.github.nearbyren:ensd-common:v1.2.7'
     implementation project(path: ':me-export')
 
 
