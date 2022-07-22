@@ -39,7 +39,17 @@ android {
         }
 
     }
-
+    sourceSets {
+        main {
+            if (isModuleType == "lib") {
+                println("isModuleType - lib")
+                manifest.srcFile 'src/main/module/AndroidManifest.xml'
+            } else {
+                println("isModuleType - app")
+                manifest.srcFile 'src/main/AndroidManifest.xml'
+            }
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
