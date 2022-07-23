@@ -42,7 +42,7 @@ dependencies {
     testImplementation Testing.jUnit
     androidTestImplementation Testing.androidJunit
     androidTestImplementation Testing.espresso
-    api 'com.github.nearbyren:ensd-common:v1.2.7'
+    api 'com.github.nearbyren:ensd-common:v1.2.8'
 
 }
 

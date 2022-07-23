@@ -87,7 +87,7 @@ dependencies {
 //    implementation project(path: ':home-aars')
 //    api 'com.github.nearbyren.ensd-station:export:v1.1.7'
 //    api 'com.github.nearbyren.ensd-station:module:v1.1.7'
-    api 'com.github.nearbyren:ensd-common:v1.2.7'
+    api 'com.github.nearbyren:ensd-common:v1.2.8'
     implementation project(path: ':me-export')
 
 
